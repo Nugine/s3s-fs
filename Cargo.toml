@@ -1,0 +1,23 @@
+[workspace]
+members = ["crates/*"]
+resolver = "3"
+
+[workspace.package]
+edition = "2024"
+repository = "https://github.com/Nugine/s3s-fs"
+license = "Apache-2.0"
+rust-version = "1.85.0"
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+
+[workspace.lints.clippy]
+# deny
+all = { level = "deny", priority = -1 }
+pedantic = { level = "deny", priority = -1 }
+cargo = { level = "deny", priority = -1 }
+# warn
+dbg_macro = "warn"
+# allow
+module_name_repetitions = "allow"
+multiple_crate_versions = "allow"

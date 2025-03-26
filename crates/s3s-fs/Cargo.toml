@@ -1,0 +1,14 @@
+[package]
+name = "s3s-fs"
+version = "0.12.0-dev"
+description = "A simple S3-compatible object storage for learning"
+readme = "README.md"
+keywords = ["s3"]
+categories = ["web-programming", "web-programming::http-server"]
+edition.workspace = true
+repository.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[lints]
+workspace = true

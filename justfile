@@ -11,9 +11,11 @@ fmt:
     cargo fmt
 
 lint *ARGS:
+    cargo clippy --workspace --all-targets {{ARGS}}
     cargo clippy --workspace --all-targets --all-features {{ARGS}}
 
 test:
+    cargo test --workspace --all-targets
     cargo test --workspace --all-targets --all-features
 
 doc:

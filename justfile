@@ -24,3 +24,6 @@ ci:
     cargo fmt --all --check
     just lint -- -D warnings
     just test
+
+install:
+    cargo install --path crates/s3s-fs --locked --all-features

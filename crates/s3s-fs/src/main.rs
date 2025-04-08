@@ -12,6 +12,10 @@ use camino::Utf8PathBuf;
 use clap::Parser;
 use tracing::{error, info};
 
+#[cfg(all(target_os = "linux", target_env = "gnu"))]
+#[global_allocator]
+static GLOBAL: tikv_jemallocator::Jemalloc = tikv_jemallocator::Jemalloc;
+
 #[derive(Debug, Parser)]
 #[command(version)]
 struct Opt {

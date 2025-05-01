@@ -33,7 +33,7 @@ branch = "feat/s3s-fs-v2"
 version = "1.44.2"
 
 [dependencies.clap]
-version = "4.5.32"
+version = "4.5.37"
 optional = true
 features = ["derive"]
 

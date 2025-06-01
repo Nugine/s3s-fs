@@ -30,15 +30,15 @@ git = "https://github.com/Nugine/s3s.git"
 branch = "feat/s3s-fs-v2"
 
 [dependencies.tokio]
-version = "1.44.2"
+version = "1.45.1"
 
 [dependencies.clap]
-version = "4.5.37"
+version = "4.5.39"
 optional = true
 features = ["derive"]
 
 [dependencies.hyper-util]
-version = "0.1.11"
+version = "0.1.13"
 optional = true
 features = ["server-auto", "server-graceful", "http1", "http2", "tokio"]
 

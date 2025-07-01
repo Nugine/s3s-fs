@@ -22,7 +22,7 @@ binary = ["tokio/full", "dep:clap", "dep:tracing-subscriber", "dep:hyper-util", 
 
 [dependencies]
 async-trait = "0.1.88"
-camino = "1.1.9"
+camino = "1.1.10"
 tracing = "0.1.41"
 
 [dependencies.s3s]
@@ -33,12 +33,12 @@ branch = "feat/s3s-fs-v2"
 version = "1.45.1"
 
 [dependencies.clap]
-version = "4.5.39"
+version = "4.5.40"
 optional = true
 features = ["derive"]
 
 [dependencies.hyper-util]
-version = "0.1.13"
+version = "0.1.14"
 optional = true
 features = ["server-auto", "server-graceful", "http1", "http2", "tokio"]
 

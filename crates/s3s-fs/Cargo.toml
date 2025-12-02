@@ -27,7 +27,7 @@ tracing = "0.1.43"
 
 [dependencies.s3s]
 git = "https://github.com/Nugine/s3s.git"
-branch = "feat/s3s-fs-v2"
+branch = "main"
 
 [dependencies.tokio]
 version = "1.48.0"

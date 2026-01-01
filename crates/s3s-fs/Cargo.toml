@@ -22,8 +22,8 @@ binary = ["tokio/full", "dep:clap", "dep:tracing-subscriber", "dep:hyper-util", 
 
 [dependencies]
 async-trait = "0.1.89"
-camino = "1.2.1"
-tracing = "0.1.43"
+camino = "1.2.2"
+tracing = "0.1.44"
 
 [dependencies.s3s]
 git = "https://github.com/Nugine/s3s.git"
@@ -38,7 +38,7 @@ optional = true
 features = ["derive"]
 
 [dependencies.hyper-util]
-version = "0.1.18"
+version = "0.1.19"
 optional = true
 features = ["server-auto", "server-graceful", "http1", "http2", "tokio"]
 

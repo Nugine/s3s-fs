@@ -30,10 +30,10 @@ git = "https://github.com/Nugine/s3s.git"
 branch = "main"
 
 [dependencies.tokio]
-version = "1.48.0"
+version = "1.49.0"
 
 [dependencies.clap]
-version = "4.5.53"
+version = "4.5.56"
 optional = true
 features = ["derive"]
 
